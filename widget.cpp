@@ -15,6 +15,7 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
+    this->setWindowState(Qt::WindowMaximized);
 }
 
 Widget::~Widget()
